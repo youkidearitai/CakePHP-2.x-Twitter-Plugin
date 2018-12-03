@@ -19,7 +19,7 @@ App::import('Vendor', 'Twitter.HttpSocketOauth');
 App::uses('CakeSession', 'Model/Datasource');
 App::uses('Multibyte', 'Utility');
 
-class Twitter extends Object {
+class Twitter extends CakeObject {
 
 /**
  * Twitter consumer key & consumer secret
